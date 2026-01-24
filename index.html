@@ -382,7 +382,7 @@ header.topbar{
 
     async function init(){
       try{
-        const res = await fetch("/faqs.json", { cache: "no-store" });
+        const res = await fetch("./faqs.json", { cache: "no-store" });
         if(!res.ok) throw new Error("HTTP " + res.status + " nel caricamento di faqs.json");
         const data = await res.json();
         if(!Array.isArray(data)) throw new Error("faqs.json non è un array JSON");
@@ -462,4 +462,5 @@ header.topbar{
   </script>
 </body>
 </html>
+
 
