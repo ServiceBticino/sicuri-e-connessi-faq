@@ -1,0 +1,30 @@
+[
+  {
+    "id": "faq-001",
+    "category": "Attivazione & prima installazione",
+    "question": "Come funziona Sicuri e Connessi?",
+    "answer": "È un servizio che fornisce una connettività dedicata ai dispositivi IoT e un unico interlocutore per la gestione della casa connessa.",
+    "tags": ["installazione", "avvio", "servizio"]
+  },
+  {
+    "id": "faq-002",
+    "category": "Connettività & rete dedicata",
+    "question": "Posso usare questa rete per streaming o navigazione internet?",
+    "answer": "No: la rete è pensata per la stabilità dei dispositivi IoT e non per uso internet generico.",
+    "tags": ["streaming", "navigazione", "rete"]
+  },
+  {
+    "id": "faq-003",
+    "category": "Garanzia & dispositivi coperti",
+    "question": "Quali dispositivi sono coperti dalla garanzia del servizio?",
+    "answer": "Sono coperti i dispositivi connessi via LAN o Wi-Fi tramite il router Teltonika. La copertura segue le regole contrattuali del servizio.",
+    "tags": ["garanzia", "copertura", "lan", "wifi"]
+  },
+  {
+    "id": "faq-004",
+    "category": "Costi & rinnovo",
+    "question": "Quanto costa il rinnovo?",
+    "answer": "Il rinnovo per il cliente finale è di 4€ al mese (secondo le condizioni del servizio).",
+    "tags": ["costo", "4 euro", "rinnovo"]
+  }
+]
