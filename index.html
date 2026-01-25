@@ -224,6 +224,65 @@
       .logo{height: 40px;}
       .titles h1{font-size: 20px;}
     }
+    /* ===== MODAL (popup) ===== */
+.modal-overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(15,15,16,.55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  z-index: 9999;
+}
+
+.modal-overlay.open{ display: flex; }
+
+.modal{
+  width: 100%;
+  max-width: 820px;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 60px rgba(0,0,0,.25);
+  border: 1px solid rgba(15,15,16,.12);
+  overflow: hidden;
+}
+
+.modal-header{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 6px solid var(--bt-orange);
+}
+
+.modal-title{
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.modal-close{
+  background: transparent;
+  border: 1px solid rgba(15,15,16,.18);
+  color: var(--bt-black);
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.modal-close:hover{
+  border-color: rgba(255,106,0,.65);
+  box-shadow: 0 0 0 3px rgba(255,106,0,.12);
+}
+
+.modal-body{
+  padding: 16px;
+  max-height: calc(100vh - 140px);
+  overflow: auto;
+}
   </style>
 
   <!-- EmailJS -->
@@ -270,15 +329,54 @@
           <button type="button" id="openFormBtn">Fai una domanda</button>
         </div>
 
-        <div id="formWrap" class="hidden" style="margin-top:14px;">
-          <div id="msgBox" class="hidden"></div>
+        <!-- MODAL POPUP: form invio domanda -->
+<div id="modalOverlay" class="modal-overlay" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-header">
+      <div class="modal-title" id="modalTitle">Invia una domanda al team</div>
+      <button type="button" class="modal-close" id="closeModalBtn">✕</button>
+    </div>
 
-          <!-- FORM: invio email -->
-          <form id="askForm">
-            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
-              <input id="name" name="name" placeholder="Nome e Cognome" required />
-              <input id="email" name="email" type="email" placeholder="Email" required />
-            </div>
+    <div class="modal-body">
+      <div id="msgBox" class="hidden"></div>
+
+      <!-- FORM: invio email -->
+      <form id="askForm">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+          <input id="name" name="name" placeholder="Nome e Cognome" required />
+          <input id="email" name="email" type="email" placeholder="Email" required />
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
+          <select id="role" name="role" required>
+            <option value="">Ruolo…</option>
+            <option>FTC G.I.</option>
+            <option>FTC G.G.</option>
+            <option>FTC Mercato</option>
+            <option>FTC R.E.</option>
+            <option>FTC Retail</option>
+            <option>FTC S.T.</option>
+            <option>Personale_Interno</option>
+            <option>Altro</option>
+          </select>
+
+          <select id="category" name="category" required>
+            <option value="">Categoria…</option>
+          </select>
+        </div>
+
+        <textarea id="message" name="message" placeholder="Scrivi qui la tua domanda…" rows="4" style="margin-top:10px;" required></textarea>
+
+        <div style="display:flex; gap:10px; margin-top:10px; align-items:center;">
+          <button id="sendBtn" type="submit">Invia</button>
+          <span class="meta" id="sendHint"></span>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+        
 
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
               <select id="role" name="role" required>
@@ -406,7 +504,8 @@
 
     // ====== Form invio domanda ======
     const openFormBtn = document.getElementById("openFormBtn");
-    const formWrap = document.getElementById("formWrap");
+    const modalOverlay = document.getElementById("modalOverlay");
+    const closeModalBtn = document.getElementById("closeModalBtn");
     const askForm = document.getElementById("askForm");
     const msgBox = document.getElementById("msgBox");
     const sendBtn = document.getElementById("sendBtn");
@@ -414,7 +513,33 @@
     loadAllowedEmails();
     const sendHint = document.getElementById("sendHint");
 
-    openFormBtn.onclick = () => formWrap.classList.toggle("hidden");
+    function openModal(){
+  modalOverlay.classList.add("open");
+  modalOverlay.setAttribute("aria-hidden","false");
+  // reset messaggi precedenti
+  msgBox.classList.add("hidden");
+  // focus comodo
+  setTimeout(() => document.getElementById("name")?.focus(), 50);
+}
+
+function closeModal(){
+  modalOverlay.classList.remove("open");
+  modalOverlay.setAttribute("aria-hidden","true");
+}
+
+openFormBtn.onclick = openModal;
+closeModalBtn.onclick = closeModal;
+
+// chiudi cliccando fuori dal popup
+modalOverlay.addEventListener("click", (e) => {
+  if(e.target === modalOverlay) closeModal();
+});
+
+// chiudi con ESC
+document.addEventListener("keydown", (e) => {
+  if(e.key === "Escape" && modalOverlay.classList.contains("open")) closeModal();
+});
+
 
     function showMsg(type, text){
       msgBox.className = type === "ok" ? "ok" : "err";
@@ -487,6 +612,7 @@ if(!allowedDomains.includes(domain)){
         await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, payload);
         showMsg("ok", "Grazie! La tua domanda è stata inviata correttamente.");
         askForm.reset();
+        setTimeout(() => closeModal(), 900);
       }catch(err){
         showMsg("err", "Errore durante l’invio. Controlla configurazione EmailJS e riprova.");
         console.error(err);
@@ -498,6 +624,7 @@ if(!allowedDomains.includes(domain)){
   </script>
 </body>
 </html>
+
 
 
 
