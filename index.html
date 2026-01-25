@@ -410,6 +410,8 @@
     const askForm = document.getElementById("askForm");
     const msgBox = document.getElementById("msgBox");
     const sendBtn = document.getElementById("sendBtn");
+    sendBtn.disabled = true; // finché non carichiamo la lista
+    loadAllowedEmails();
     const sendHint = document.getElementById("sendHint");
 
     openFormBtn.onclick = () => formWrap.classList.toggle("hidden");
@@ -420,19 +422,40 @@
       msgBox.classList.remove("hidden");
     }
 
-    // ====== Lista email autorizzate (solo invio domande) ======
-// Inserisci qui tutte le email abilitate (in minuscolo)
-const ALLOWED_EMAILS = new Set([
-  "nome.cognome@bticino.com",
-  "utente1@legrand.com",
-  "utente2@bticino.com"
-]);
+ // ====== Email autorizzate (caricate da file allowed_emails.json) ======
+let ALLOWED_EMAILS = new Set();
+let allowedReady = false;
 
 function normalizeEmail(email){
-  return (email || "").trim().toLowerCase();
+  return (email || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "")      // rimuove spazi/tab/newline
+    .replace(/\u00A0/g, "");  // rimuove NBSP (spazio invisibile)
+}
+
+async function loadAllowedEmails(){
+  try{
+    const res = await fetch("./allowed_emails.json?v=" + Date.now(), { cache: "no-store" });
+    if(!res.ok) throw new Error("Errore caricamento allowed_emails.json (HTTP " + res.status + ")");
+    const list = await res.json();
+    if(!Array.isArray(list)) throw new Error("allowed_emails.json non è un array JSON");
+    ALLOWED_EMAILS = new Set(list.map(normalizeEmail));
+    allowedReady = true;
+    if (sendBtn) sendBtn.disabled = false;
+  }catch(e){
+    console.error(e);
+    allowedReady = false;
+    if (sendBtn) sendBtn.disabled = true;
+    showMsg("err", "Errore nel caricamento utenti autorizzati. Invio disabilitato.");
+  }
 }
     askForm.addEventListener("submit", async (e) => {
       e.preventDefault();
+if(!allowedReady){
+  showMsg("err", "Attendi un secondo: sto caricando la lista utenti autorizzati. Riprova tra 2 secondi.");
+  return;
+}
       msgBox.classList.add("hidden");
 const email = normalizeEmail(document.getElementById("email").value);
 
@@ -475,6 +498,7 @@ if(!allowedDomains.includes(domain)){
   </script>
 </body>
 </html>
+
 
 
 
