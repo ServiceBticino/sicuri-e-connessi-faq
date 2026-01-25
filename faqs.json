@@ -12,10 +12,29 @@
     "answer": "<p><strong>Sicuri e Connessi</strong> non sostituisce la fibra, ma la affianca con una rete dedicata esclusivamente ai dispositivi smart della casa.</p>\n<p>La rete internet di casa è pensata per navigazione e intrattenimento (TV, streaming, smartphone, PC) e non è progettata per proteggere sistemi IoT critici.</p>\n<p>Con Sicuri e Connessi:</p>\n<ul>\n  <li>i dispositivi IoT sono isolati su una rete separata e protetta;</li>\n  <li>la connessione continua a funzionare anche se la fibra non va;</li>\n  <li>il cliente può cambiare operatore fibra quando vuole, senza riconfigurare nulla.</li>\n</ul>\n<p><strong>👉 Il canone non paga “internet”, ma la sicurezza e la certezza della continuità di servizio.</strong></p>"
   },
   {
-    "question": "Ma non è pericoloso avere una casa smart?",
+    "question": "Perché è importante proteggere la connettività di una casa SMART?",
     "category": "Sicurezza",
     "tags": ["smart home", "sicurezza", "rete", "iot"],
-    "answer": "<p>No, il problema non è la smart home, ma la rete su cui viene collegata.</p>\n<p>Una casa smart collegata a una rete non sicura può essere vulnerabile, soprattutto se gestisce allarmi, videocamere e accessi.</p>\n<p>Sicuri e Connessi nasce proprio per:</p>\n<ul>\n  <li>separare la rete IoT dalla rete domestica,</li>\n  <li>proteggere i dati,</li>\n  <li>evitare accessi non autorizzati.</li>\n</ul>\n<p><strong>👉 La smart home è sicura se la rete è progettata correttamente.</strong></p>"
+    "answer": "<p>Proteggere la connettività di una casa smart è fondamentale perché il vero punto critico <strong>non è la smart home in sé</strong>, ma <strong>la rete a cui è collegata</strong>.</p>
+
+<p>Una casa smart connessa a una rete non adeguatamente protetta può diventare vulnerabile, soprattutto quando gestisce dispositivi sensibili come:</p>
+
+<ul>
+  <li>sistemi di allarme</li>
+  <li>videocamere</li>
+  <li>controllo accessi</li>
+  <li>automazioni critiche</li>
+</ul>
+
+<p>Il servizio <strong>Sicuri e Connessi</strong> nasce proprio per affrontare questo aspetto, permettendo di:</p>
+
+<ul>
+  <li>separare la rete IoT dalla rete domestica</li>
+  <li>proteggere i dati e le comunicazioni</li>
+  <li>prevenire accessi non autorizzati dall’esterno</li>
+</ul>
+
+<p><strong>👉 Una casa smart è davvero sicura solo quando la sua connettività è progettata e protetta correttamente.</strong></p>"
   },
   {
     "question": "Non basta il Wi-Fi del router dell’operatore?",
@@ -72,6 +91,7 @@
     "answer": "<p>Sì: a livello tecnico puoi collegare anche dispositivi IoT di terze parti (es. elettrodomestici connessi, Bimby, telecamere di terze parti, ecc.).</p>\n<p>È importante però chiarire che BTicino garantisce, testa e supporta ufficialmente Sicuri e Connessi per la connettività cloud dei dispositivi IoT BTicino.</p>\n<p>Inoltre la connettività del servizio è dedicata ai dispositivi BTicino (non nasce come “internet di casa” generico).</p>"
   }
 ]
+
 
 
 
