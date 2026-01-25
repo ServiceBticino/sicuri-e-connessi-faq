@@ -1,80 +1,123 @@
 [
   {
-    "id": "faq-001",
-    "category": "Attivazione e contratto",
-    "question": "Come faccio a ricevere il dispositivo una volta acquistata la cartolina dal GG?",
-    "answer": "<p>Per ricevere il dispositivo dopo l’acquisto della cartolina dal Grossista, segui questi passaggi su <strong>MyBTicino</strong>:</p>\n\n<ol>\n  <li><strong>Accedi a MyBTicino</strong> e vai alla sezione <strong>Contratti</strong> &rarr; <strong>Attiva un contratto</strong>.</li>\n</ol>\n<img src=\"images/Attiva_Contratto_MYBtiicno.png\" alt=\"MyBTicino - Attiva un contratto\" style=\"max-width:100%; height:auto; margin:10px 0; border-radius:8px;\">\n\n<ol start=\"2\">\n  <li><strong>Inserisci il codice</strong> che trovi nella busta e clicca su <strong>Verifica codice</strong>.</li>\n</ol>\n<img src=\"images/Codice_Contratto_MyBticino.png\" alt=\"Inserimento codice e verifica\" style=\"max-width:100%; height:auto; margin:10px 0; border-radius:8px;\">\n\n<ol start=\"3\">\n  <li><strong>Compila i dati</strong> (installatore e indirizzo di consegna) nel modulo di attivazione.</li>\n</ol>\n<img src=\"images/Inserimento_Dati_MyBticino.png\" alt=\"Inserimento dati installatore e indirizzo\" style=\"max-width:100%; height:auto; margin:10px 0; border-radius:8px;\">\n\n<ol start=\"4\">\n  <li>Clicca su <strong>Attiva contratto</strong>.</li>\n</ol>\n\n<p><strong>Operazione completata:</strong> il contratto viene generato automaticamente in PDF e il dispositivo viene consegnato all’indirizzo indicato entro <strong>48 ore</strong>.</p>\n<img src=\"images/Operazione_OK_MyBticino.png\" alt=\"Contratto attivato con successo\" style=\"max-width:100%; height:auto; margin:10px 0; border-radius:8px;\">",
-    "tags": ["mybticino", "contratto", "attivazione", "spedizione", "codice"]
+    "question": "Come faccio a ricevere il dispositivo una volta acquistata la cartolina dal Grossista?",
+    "category": "Attivazione & prima installazione",
+    "tags": ["attivazione", "contratto", "mybticino"],
+    "answer": "
+    <p>Per ricevere il dispositivo <strong>Sicuri e Connessi</strong> dopo l’acquisto della cartolina, segui questi semplici passaggi:</p>
+
+    <h4>1️⃣ Accedi a MyBTicino</h4>
+    <p>Vai su <strong>MyBTicino</strong> e seleziona la voce <strong>“Attiva un contratto”</strong>.</p>
+    <figure>
+      <img src=\"images/Attiva_Contratto_MYBtiicno.png\" style=\"max-width:100%;border-radius:8px;\">
+      <figcaption class=\"meta\">Accesso all’area MyBTicino e selezione “Attiva un contratto”.</figcaption>
+    </figure>
+
+    <h4>2️⃣ Inserisci il codice contratto</h4>
+    <p>Inserisci il <strong>codice a 12 cifre</strong> che trovi all’interno della busta e clicca su <strong>“Verifica codice”</strong>.</p>
+    <figure>
+      <img src=\"images/Codice_Contratto_MyBticino.png\" style=\"max-width:100%;border-radius:8px;\">
+      <figcaption class=\"meta\">Inserimento del codice contratto ricevuto con la cartolina.</figcaption>
+    </figure>
+
+    <h4>3️⃣ Compila i dati richiesti</h4>
+    <p>Inserisci:</p>
+    <ul>
+      <li>Dati dell’installatore</li>
+      <li>Indirizzo di consegna del dispositivo</li>
+      <li>Data di acquisto dell’impianto</li>
+    </ul>
+    <figure>
+      <img src=\"images/Inserimento_Dati_MyBticino.png\" style=\"max-width:100%;border-radius:8px;\">
+      <figcaption class=\"meta\">Compilazione dei dati di installazione e consegna.</figcaption>
+    </figure>
+
+    <h4>4️⃣ Attiva il contratto</h4>
+    <p>Clicca su <strong>“Attiva contratto”</strong> per completare la procedura.</p>
+    <figure>
+      <img src=\"images/Operazione_OK_MyBticino.png\" style=\"max-width:100%;border-radius:8px;\">
+      <figcaption class=\"meta\">Conferma di avvenuta attivazione del contratto.</figcaption>
+    </figure>
+
+    <p><strong>✔ Esito:</strong></p>
+    <ul>
+      <li>Il contratto viene generato automaticamente in PDF</li>
+      <li>Entro <strong>48 ore</strong> il dispositivo viene spedito all’indirizzo indicato</li>
+    </ul>
+    "
   },
+
   {
-    "id": "faq-002",
-    "category": "Valore del servizio",
     "question": "Perché dovrei pagare un canone se ho già la fibra di casa?",
-    "answer": "<p>Perché <strong>Sicuri e Connessi non sostituisce la fibra</strong>, ma la affianca con una rete dedicata esclusivamente ai dispositivi smart della casa.</p>\n<p>La rete internet di casa è pensata per navigazione e intrattenimento (TV, streaming, smartphone, PC) e non è progettata per proteggere sistemi IoT critici.</p>\n\n<p>Con Sicuri e Connessi:</p>\n<ul>\n  <li>i dispositivi IoT sono isolati su una rete separata e protetta;</li>\n  <li>la connessione continua a funzionare anche se la fibra non va;</li>\n  <li>il cliente può cambiare operatore fibra quando vuole, senza riconfigurare nulla.</li>\n</ul>\n\n<p><strong>Il canone non paga “internet”</strong>, ma la sicurezza e la certezza della continuità di servizio.</p>\n\n<p><em>Alcuni esempi pratici:</em></p>\n<ul>\n  <li>Quanto vale che allarme e telecamere siano connessi in modo sicuro a internet? Più o meno di 4€ al mese?</li>\n  <li>Quanto vale avere la certezza di poter gestire l’impianto da remoto quando serve? Più o meno di 4€ al mese?</li>\n  <li>Quanto vale evitare che un problema di rete venga scambiato per un guasto dell’impianto? Più o meno di 4€ al mese?</li>\n</ul>",
-    "tags": ["canone", "fibra", "valore", "continuità", "sicurezza"]
+    "category": "Connettività & rete dedicata",
+    "tags": ["canone", "fibra", "rete dedicata"],
+    "answer": "
+    <p>Perché <strong>Sicuri e Connessi</strong> non sostituisce la fibra, ma la <strong>affianca</strong>.</p>
+
+    <p>La rete di casa è pensata per:</p>
+    <ul>
+      <li>navigazione internet</li>
+      <li>streaming</li>
+      <li>PC e smartphone</li>
+    </ul>
+
+    <p>Non è progettata per proteggere sistemi IoT critici.</p>
+
+    <p>Con <strong>Sicuri e Connessi</strong>:</p>
+    <ul>
+      <li>i dispositivi smart sono su una <strong>rete separata e protetta</strong></li>
+      <li>la connessione continua anche se la fibra non funziona</li>
+      <li>il cliente può cambiare operatore fibra senza riconfigurare l’impianto</li>
+    </ul>
+
+    <p><strong>👉 Il canone non paga “internet”, ma sicurezza e continuità di servizio.</strong></p>
+    "
   },
+
   {
-    "id": "faq-003",
-    "category": "Sicurezza",
-    "question": "Ma non è pericoloso avere una casa smart?",
-    "answer": "<p>No: il problema non è la smart home, ma <strong>la rete su cui viene collegata</strong>.</p>\n<p>Una casa smart collegata a una rete non sicura può essere vulnerabile, soprattutto se gestisce allarmi, videocamere e accessi.</p>\n\n<p>Sicuri e Connessi nasce proprio per:</p>\n<ul>\n  <li>separare la rete IoT dalla rete domestica;</li>\n  <li>proteggere i dati;</li>\n  <li>evitare accessi non autorizzati.</li>\n</ul>\n\n<p><strong>La smart home è sicura se la rete è progettata correttamente.</strong></p>",
-    "tags": ["smart home", "sicurezza", "rete", "iot"]
+    "question": "Posso usare questa rete per streaming o navigazione internet?",
+    "category": "Connettività & rete dedicata",
+    "tags": ["streaming", "internet"],
+    "answer": "
+    <p>No. La rete <strong>Sicuri e Connessi</strong> è dedicata esclusivamente ai dispositivi IoT.</p>
+
+    <p>Questo garantisce:</p>
+    <ul>
+      <li>stabilità di connessione</li>
+      <li>massima sicurezza</li>
+      <li>priorità ai servizi critici (allarmi, videocamere, accessi)</li>
+    </ul>
+    "
   },
+
   {
-    "id": "faq-004",
-    "category": "Connettività e rete dedicata",
-    "question": "Non basta il Wi-Fi del router dell’operatore?",
-    "answer": "<p>I router degli operatori non sono progettati per gestire impianti IoT critici.</p>\n\n<p>Senza Sicuri e Connessi, cliente o installatore devono:</p>\n<ul>\n  <li>scegliere tra Wi-Fi 5 / 6 / 7 in base a dispositivi e router dell’operatore;</li>\n  <li>decidere se usare 2,4 o 5 GHz in base al dispositivo;</li>\n  <li>creare una rete separata per l’IoT per evitare congestioni con lo streaming;</li>\n  <li>aprire manualmente le porte sul router.</li>\n</ul>\n\n<p><strong>Con Sicuri e Connessi:</strong></p>\n<ul>\n  <li>tutto è già configurato;</li>\n  <li>la rete è ottimizzata per i dispositivi IoT BTicino;</li>\n  <li>non servono competenze di networking.</li>\n</ul>\n\n<p><strong>Il rischio non è la smart home, ma la rete non sicura.</strong></p>",
-    "tags": ["wifi", "router operatore", "2.4ghz", "5ghz", "configurazione"]
+    "question": "Quali dispositivi sono coperti dalla garanzia del servizio?",
+    "category": "Garanzia & dispositivi coperti",
+    "tags": ["garanzia", "dispositivi"],
+    "answer": "
+    <p>Il servizio è <strong>certificato e garantito</strong> per i dispositivi IoT BTicino.</p>
+
+    <p>È comunque possibile collegare altri dispositivi IoT (es. elettrodomestici smart, telecamere di terze parti), ma:</p>
+    <ul>
+      <li>non possono essere testati singolarmente</li>
+      <li>non rientrano nella garanzia BTicino</li>
+    </ul>
+    "
   },
+
   {
-    "id": "faq-005",
-    "category": "Gestione del servizio",
-    "question": "Chi gestisce SIM, router e sicurezza?",
-    "answer": "<p><strong>Un unico interlocutore tecnico: BTicino.</strong></p>\n\n<p>Il cliente:</p>\n<ul>\n  <li>non deve chiamare l’operatore telefonico;</li>\n  <li>non deve parlare con più call center;</li>\n  <li>non deve capire chi è responsabile di cosa.</li>\n</ul>\n\n<p><strong>BTicino gestisce tutto:</strong> connettività, sicurezza, aggiornamenti e compatibilità.</p>",
-    "tags": ["sim", "router", "bticino", "sicurezza", "assistenza"]
-  },
-  {
-    "id": "faq-006",
-    "category": "Assistenza",
-    "question": "E se qualcosa non funziona, chi interviene?",
-    "answer": "<p><strong>Interviene direttamente BTicino.</strong></p>\n<p>Il cliente non stressa l’installatore, non chiede interventi continui, non attribuisce problemi di rete all’impianto.</p>\n\n<p>BTicino:</p>\n<ul>\n  <li>monitora il sistema da remoto;</li>\n  <li>fa diagnostica;</li>\n  <li>aggiorna router e configurazioni;</li>\n  <li>fornisce assistenza dedicata, non generica.</li>\n</ul>\n\n<p><strong>L’installatore non diventa un centro assistenza</strong>, ma consegna un impianto affidabile e stabile.</p>",
-    "tags": ["assistenza", "diagnostica", "monitoraggio", "intervento"]
-  },
-  {
-    "id": "faq-007",
-    "category": "Uso della rete",
-    "question": "Posso usare questa rete anche per navigare o fare streaming?",
-    "answer": "<p>No, ed è un vantaggio.</p>\n<p>La rete Sicuri e Connessi è dedicata esclusivamente ai dispositivi IoT BTicino.</p>\n\n<p>Questo garantisce:</p>\n<ul>\n  <li>maggiore sicurezza;</li>\n  <li>maggiore stabilità;</li>\n  <li>continuità di servizio per i dispositivi critici.</li>\n</ul>\n\n<p><strong>Meno traffico inutile = più affidabilità.</strong></p>",
-    "tags": ["streaming", "navigazione", "rete dedicata", "iot"]
-  },
-  {
-    "id": "faq-008",
-    "category": "Garanzia e rinnovo",
-    "question": "Quali dispositivi sono coperti dall’estensione di garanzia?",
-    "answer": "<p>Tutti i dispositivi BTicino direttamente connessi via <strong>LAN</strong> o <strong>Wi-Fi</strong> al router Teltonika godono dell’estensione di garanzia per tutta la durata del contratto (<strong>1 anno</strong>, rinnovabile di anno in anno anche tramite rinnovo automatico dal sito).</p>\n<p><strong>Una tutela concreta</strong> che protegge l’investimento del cliente nel tempo.</p>",
-    "tags": ["garanzia", "lan", "wifi", "teltonika", "rinnovo"]
-  },
-  {
-    "id": "faq-009",
-    "category": "Garanzia e rinnovo",
-    "question": "Cosa succede se non rinnovo il servizio dopo il primo anno?",
-    "answer": "<p>Il router resta al cliente. La SIM IoT non è più attiva e decadono assistenza ed estensione di garanzia.</p>\n\n<p>Se il cliente collega la fibra di casa al router Teltonika:</p>\n<ul>\n  <li>la SIM viene disabilitata automaticamente;</li>\n  <li>la fibra diventa la connessione primaria;</li>\n  <li>il router funziona come hotspot o extender della rete di casa.</li>\n</ul>\n\n<p><strong>Nessun vincolo, nessuno spreco.</strong></p>",
-    "tags": ["non rinnovo", "sim", "fibra", "router", "hotspot"]
-  },
-  {
-    "id": "faq-010",
-    "category": "Costi",
-    "question": "Quanto costa il rinnovo annuale del servizio ?",
-    "answer": "<p>4 € al mese che includono:</p>\n<ul>\n  <li>connettività IoT dedicata;</li>\n  <li>sicurezza della rete;</li>\n  <li>monitoraggio continuo;</li>\n  <li>assistenza dedicata BTicino;</li>\n  <li>aggiornamenti automatici;</li>\n  <li>estensione della garanzia.</li>\n</ul>\n\n<p><strong>Costano meno di una singola uscita tecnica</strong>, ma proteggono un impianto che vale molto di più.</p>",
-    "tags": ["costo", "4 euro", "canone", "servizi inclusi"]
-  },
-  {
-    "id": "faq-011",
-    "category": "Installatore",
-    "question": "Che vantaggio ha l’installatore a proporlo?",
-    "answer": "<p>Per l’installatore significa:</p>\n<ul>\n  <li>vendere un servizio ad alto valore;</li>\n  <li>aumentare il valore dell’impianto medio;</li>\n  <li>ridurre interventi post-vendita;</li>\n  <li>non accollarsi l’assistenza nel tempo.</li>\n</ul>\n\n<p><strong>Fatturato in più, zero stress operativo.</strong></p>",
-    "tags": ["installatore", "valore", "post vendita", "margine"]
+    "question": "Quanto costa il rinnovo del servizio?",
+    "category": "Costi & rinnovo",
+    "tags": ["rinnovo", "canone"],
+    "answer": "
+    <p>Il rinnovo del servizio ha un costo contenuto, pensato per garantire:</p>
+    <ul>
+      <li>continuità di connessione</li>
+      <li>rete dedicata</li>
+      <li>supporto e sicurezza nel tempo</li>
+    </ul>
+
+    <p>Il valore del servizio va confrontato con il rischio di avere un impianto non raggiungibile quando serve.</p>
+    "
   }
 ]
-
