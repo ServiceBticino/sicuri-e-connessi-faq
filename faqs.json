@@ -33,7 +33,7 @@
     "question": "E se qualcosa non funziona, chi interviene?",
     "category": "Assistenza",
     "tags": ["assistenza", "diagnostica", "monitoraggio"],
-    "answer": "<p><strong>Interviene direttamente BTicino.</strong></p>\n<p>BTicino monitora il sistema da remoto, fa diagnostica, aggiorna router e configurazioni e fornisce assistenza dedicata.</p>\n<p><strong>👉 L’installatore non diventa un centro assistenza</strong>, ma consegna un impianto affidabile e stabile.</p>"
+    "answer": "<p><strong>Interviene direttamente BTicino.</strong></p>\n<p>BTicino monitora il sistema da remoto, fa diagnostica, aggiorna router e configurazioni e fornisce assistenza dedicata.</p>\n<p><strong>👉 L’installatore non si preoccupa dell'assistenza ci pensa il numero verde Bticino</strong>, ma consegna un impianto affidabile e stabile.</p>"
   },
   {
     "question": "Posso usare questa rete anche per navigare o fare streaming?",
@@ -72,3 +72,4 @@
     "answer": "<p>Sì: a livello tecnico puoi collegare anche dispositivi IoT di terze parti (es. elettrodomestici connessi, Bimby, telecamere di terze parti, ecc.).</p>\n<p>È importante però chiarire che BTicino garantisce, testa e supporta ufficialmente Sicuri e Connessi per la connettività cloud dei dispositivi IoT BTicino.</p>\n<p>Inoltre la connettività del servizio è dedicata ai dispositivi BTicino (non nasce come “internet di casa” generico).</p>"
   }
 ]
+
