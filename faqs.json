@@ -41,19 +41,12 @@
     "tags": ["streaming", "navigazione", "rete dedicata"],
     "answer": "<p>No, ed è un vantaggio.</p>\n<p>La rete Sicuri e Connessi è dedicata esclusivamente ai dispositivi IoT BTicino: meno traffico inutile = più affidabilità.</p>"
   },
-  {
-    "question": "Quali dispositivi sono coperti dall’estensione di garanzia?",
-    "category": "Garanzia & dispositivi coperti",
-    "tags": ["garanzia", "lan", "wifi", "teltonika"],
-    "answer": "<p>Tutti i dispositivi BTicino connessi via LAN o Wi-Fi al router Teltonika godono dell’estensione di garanzia per tutta la durata del contratto (1 anno, rinnovabile)  A
-solo titolo di esempio, ma non esaustivo:
-- F460/F461 (Gateway SCS)
-- JC/JW/N/L/NT/AM/K4510C (Gateway incasso Smart)
-- FC80GT Gateway guida DIN smart)
-- 344842 – 344884- 344682 (Videocitofoni connessi)
-- XW/XG/XM8002 (cronotermostati connessi)
-- 375001 (Server Videocitofonia IP).</p>"
-  },
+ {
+  "question": "Quali dispositivi sono coperti dall’estensione di garanzia?",
+  "category": "Garanzia & dispositivi coperti",
+  "tags": ["garanzia", "lan", "wifi", "teltonika"],
+  "answer": "<p>Tutti i dispositivi <strong>BTicino</strong> connessi via <strong>LAN o Wi-Fi</strong> al router <strong>Teltonika</strong> godono dell’estensione di garanzia per tutta la durata del contratto (1 anno, rinnovabile).</p><p>A solo titolo di esempio, ma non esaustivo, sono coperti:</p><ul><li><strong>F460 / F461</strong> – Gateway SCS</li><li><strong>JC / JW / N / L / NT / AM / K4510C</strong> – Gateway incasso Smart</li><li><strong>FC80GT</strong> – Gateway guida DIN Smart</li><li><strong>344842 / 344884 / 344682</strong> – Videocitofoni connessi</li><li><strong>XW / XG / XM8002</strong> – Cronotermostati connessi</li><li><strong>375001</strong> – Server Videocitofonia IP</li></ul>"
+},
   {
     "question": "Cosa succede se non rinnovo il servizio dopo il primo anno?",
     "category": "Garanzia & rinnovo",
@@ -79,5 +72,6 @@ solo titolo di esempio, ma non esaustivo:
     "answer": "<p>Sì: a livello tecnico puoi collegare anche dispositivi IoT di terze parti (es. elettrodomestici connessi, Bimby, telecamere di terze parti, ecc.).</p>\n<p>È importante però chiarire che BTicino garantisce, testa e supporta ufficialmente Sicuri e Connessi per la connettività cloud dei dispositivi IoT BTicino.</p>\n<p>Inoltre la connettività del servizio è dedicata ai dispositivi BTicino (non nasce come “internet di casa” generico).</p>"
   }
 ]
+
 
 
