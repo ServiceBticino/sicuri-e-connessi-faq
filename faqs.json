@@ -33,7 +33,7 @@
     "question": "E se qualcosa non funziona, chi interviene?",
     "category": "Assistenza",
     "tags": ["assistenza", "diagnostica", "monitoraggio"],
-    "answer": "<p><strong>Interviene direttamente BTicino.</strong></p>\n<p>BTicino monitora il sistema da remoto, fa diagnostica, aggiorna router e configurazioni e fornisce assistenza dedicata.</p>\n<p><strong>👉 L’installatore non si preoccupa dell'assistenza ci pensa il numero verde Bticino</strong>, ma consegna un impianto affidabile e stabile.</p>"
+    "answer": "<p><strong>Interviene direttamente BTicino.</strong></p>\n<p>BTicino monitora il sistema da remoto, fa diagnostica, aggiorna router e configurazioni e fornisce assistenza dedicata.</p>\n<p><strong>👉 L’installatore consegna un impianto affidabile, stabile e non si preoccupa dell'assistenza</strong>, per quella ci pensa il numero verde Bticino.</p>"
   },
   {
     "question": "Posso usare questa rete anche per navigare o fare streaming?",
@@ -45,7 +45,14 @@
     "question": "Quali dispositivi sono coperti dall’estensione di garanzia?",
     "category": "Garanzia & dispositivi coperti",
     "tags": ["garanzia", "lan", "wifi", "teltonika"],
-    "answer": "<p>Tutti i dispositivi BTicino connessi via LAN o Wi-Fi al router Teltonika godono dell’estensione di garanzia per tutta la durata del contratto (1 anno, rinnovabile).</p>"
+    "answer": "<p>Tutti i dispositivi BTicino connessi via LAN o Wi-Fi al router Teltonika godono dell’estensione di garanzia per tutta la durata del contratto (1 anno, rinnovabile)  A
+solo titolo di esempio, ma non esaustivo:
+- F460/F461 (Gateway SCS)
+- JC/JW/N/L/NT/AM/K4510C (Gateway incasso Smart)
+- FC80GT Gateway guida DIN smart)
+- 344842 – 344884- 344682 (Videocitofoni connessi)
+- XW/XG/XM8002 (cronotermostati connessi)
+- 375001 (Server Videocitofonia IP).</p>"
   },
   {
     "question": "Cosa succede se non rinnovo il servizio dopo il primo anno?",
@@ -54,10 +61,10 @@
     "answer": "<p>Il router resta al cliente. La SIM IoT non è più attiva e decadono assistenza ed estensione di garanzia.</p>\n<p>Se il cliente collega la fibra di casa al router Teltonika, la SIM viene disabilitata automaticamente e la fibra diventa la connessione primaria.</p>\n<p><strong>👉 Nessun vincolo, nessuno spreco.</strong></p>"
   },
   {
-    "question": "4 € al mese non sono pochi?",
+    "question": "Quanto costa il rinnovo annuale del servizio ?",
     "category": "Costi & valore",
-    "tags": ["4 euro", "costo", "valore"],
-    "answer": "<p>4 € al mese includono connettività IoT dedicata, sicurezza della rete, monitoraggio continuo, assistenza BTicino, aggiornamenti automatici ed estensione della garanzia.</p>\n<p><strong>👉 Costano meno di una singola uscita tecnica, ma proteggono un impianto che vale molto di più.</strong></p>"
+    "tags": ["Rinnovo", "costo", "valore"],
+    "answer": "<p>4 € al mese includono connettività IoT dedicata, sicurezza della rete, monitoraggio continuo, assistenza BTicino, aggiornamenti automatici ed estensione della garanzia.</p>\n<p><strong>👉 Costano meno di una singola uscita tecnica, proteggendo un impianto che vale molto di più.</strong></p>"
   },
   {
     "question": "Che vantaggio ha l’installatore a proporlo?",
@@ -72,4 +79,5 @@
     "answer": "<p>Sì: a livello tecnico puoi collegare anche dispositivi IoT di terze parti (es. elettrodomestici connessi, Bimby, telecamere di terze parti, ecc.).</p>\n<p>È importante però chiarire che BTicino garantisce, testa e supporta ufficialmente Sicuri e Connessi per la connettività cloud dei dispositivi IoT BTicino.</p>\n<p>Inoltre la connettività del servizio è dedicata ai dispositivi BTicino (non nasce come “internet di casa” generico).</p>"
   }
 ]
+
 
