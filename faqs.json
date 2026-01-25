@@ -29,6 +29,12 @@
     "tags": ["sim", "router", "bticino", "assistenza"],
     "answer": "<p><strong>Un unico interlocutore tecnico: BTicino.</strong></p>\n<p>Il cliente non deve chiamare l’operatore telefonico, non deve parlare con più call center e non deve capire chi è responsabile di cosa.</p>\n<p><strong>👉 BTicino gestisce tutto:</strong> connettività, sicurezza, aggiornamenti e compatibilità.</p>"
   },
+{
+"question": "Come posso verificare se nella mia zona è disponibile la copertura necessaria per il servizio Sicuri e Connessi?",
+"category": "Gestione del servizio",
+"tags": ["sim", "router", "rete", "segnale"],
+"answer": "<p>La tecnologia impiegata ottimizza automaticamente il segnale, garantendo continuità di servizio.</p><p>L’utente non deve preoccuparsi di nulla: il sistema riesce in automatico a sfruttare il miglior segnale che le infrastrutture di rete offrono nella zona di installazione, rendendo la connettività più stabile e performante e assicurando un funzionamento costante.</p><p><strong>👉 In questo modo il servizio resta affidabile anche in presenza di variazioni di copertura, senza interventi manuali o configurazioni da parte dell’utente.</strong></p>"  
+  },
   {
     "question": "E se qualcosa non funziona, chi interviene?",
     "category": "Assistenza",
@@ -60,10 +66,10 @@
     "answer": "<p>4 € al mese includono connettività IoT dedicata, sicurezza della rete, monitoraggio continuo, assistenza BTicino, aggiornamenti automatici ed estensione della garanzia.</p>\n<p><strong>👉 Costano meno di una singola uscita tecnica, proteggendo un impianto che vale molto di più.</strong></p>"
   },
   {
-    "question": "Che vantaggio ha l’installatore a proporlo?",
+    "question": "Perché per un installatore è utile proporre Sicuri e Connessi ai propri clienti?",
     "category": "Installatore",
     "tags": ["installatore", "valore", "post-vendita"],
-    "answer": "<p>Vende un servizio ad alto valore, aumenta il valore dell’impianto medio, riduce interventi post-vendita e non si accolla l’assistenza nel tempo.</p>\n<p><strong>👉 Fatturato in più, zero stress operativo.</strong></p>"
+    "answer": "<p>Proporre <strong>Sicuri e Connessi</strong> consente all’installatore di offrire un servizio aggiuntivo che <strong>tutela il cliente finale</strong> e allo stesso tempo <strong>protegge il lavoro svolto nel tempo</strong>.</p><p>Il cliente beneficia di una connettività dedicata, sicura e monitorata, fondamentale per il corretto funzionamento di impianti smart, sistemi di sicurezza e dispositivi connessi.</p><p>L’installatore, dal canto suo, propone una soluzione professionale e affidabile <strong>senza doversi fare carico dell’assistenza continuativa</strong>, che è gestita direttamente da <strong>BTicino</strong> tramite i propri canali di supporto.</p><ul><li>Il cliente ha la garanzia di un servizio stabile e supportato da un brand strutturato</li><li>L’installatore riduce le chiamate post-vendita non legate all’impianto</li><li>Il rapporto cliente–installatore resta positivo e duraturo</li></ul><p><strong>👉 Un servizio che aumenta la soddisfazione del cliente e semplifica il lavoro dell’installatore, senza stress operativo.</strong></p>"
   },
   {
     "question": "Posso collegare altri dispositivi IoT al servizio Sicuri e Connessi oltre a quelli BTicino?",
@@ -72,6 +78,7 @@
     "answer": "<p>Sì: a livello tecnico puoi collegare anche dispositivi IoT di terze parti (es. elettrodomestici connessi, Bimby, telecamere di terze parti, ecc.).</p>\n<p>È importante però chiarire che BTicino garantisce, testa e supporta ufficialmente Sicuri e Connessi per la connettività cloud dei dispositivi IoT BTicino.</p>\n<p>Inoltre la connettività del servizio è dedicata ai dispositivi BTicino (non nasce come “internet di casa” generico).</p>"
   }
 ]
+
 
 
 
