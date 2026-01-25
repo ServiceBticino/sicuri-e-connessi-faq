@@ -65,8 +65,8 @@
   {
     "id": "faq-010",
     "category": "Costi",
-    "question": "4 € al mese non sono pochi?",
-    "answer": "<p>4 € al mese includono:</p>\n<ul>\n  <li>connettività IoT dedicata;</li>\n  <li>sicurezza della rete;</li>\n  <li>monitoraggio continuo;</li>\n  <li>assistenza dedicata BTicino;</li>\n  <li>aggiornamenti automatici;</li>\n  <li>estensione della garanzia.</li>\n</ul>\n\n<p><strong>Costano meno di una singola uscita tecnica</strong>, ma proteggono un impianto che vale molto di più.</p>",
+    "question": "Quanto costa il rinnovo annuale del servizio ?",
+    "answer": "<p>4 € al mese che includono:</p>\n<ul>\n  <li>connettività IoT dedicata;</li>\n  <li>sicurezza della rete;</li>\n  <li>monitoraggio continuo;</li>\n  <li>assistenza dedicata BTicino;</li>\n  <li>aggiornamenti automatici;</li>\n  <li>estensione della garanzia.</li>\n</ul>\n\n<p><strong>Costano meno di una singola uscita tecnica</strong>, ma proteggono un impianto che vale molto di più.</p>",
     "tags": ["costo", "4 euro", "canone", "servizi inclusi"]
   },
   {
@@ -77,3 +77,4 @@
     "tags": ["installatore", "valore", "post vendita", "margine"]
   }
 ]
+
