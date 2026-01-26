@@ -686,15 +686,10 @@
       sendBtn.disabled = true;
       sendHint.textContent = "Invio in corso…";
 
-      const payload = {
-  // destinatario fisso (tu)
-  to_email: ADMIN_TO_EMAIL,
-
-  // dati mittente
+     const payload = {
+  to_email: ADMIN_TO_EMAIL, // <-- la tua mail fissa
   from_name: document.getElementById("name").value.trim(),
   from_email: email,
-
-  // contenuto
   role: document.getElementById("role").value,
   category: document.getElementById("category").value,
   message: document.getElementById("message").value.trim(),
@@ -727,4 +722,5 @@
   </script>
 </body>
 </html>
+
 
