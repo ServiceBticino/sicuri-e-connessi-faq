@@ -457,6 +457,8 @@
     const EMAILJS_PUBLIC_KEY = "vroneqwVOfxcazawc";
     const EMAILJS_SERVICE_ID = "Sicuri_&_Connessi";
     const EMAILJS_TEMPLATE_ID = "template_sjl0d24";
+    const ADMIN_TO_EMAIL = "andrea.cattabiani@bticino.com";
+
 
     // Inizializza EmailJS
     emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
@@ -685,13 +687,19 @@
       sendHint.textContent = "Invio in corso…";
 
       const payload = {
-        name: document.getElementById("name").value.trim(),
-        email: email,
-        role: document.getElementById("role").value,
-        category: document.getElementById("category").value,
-        message: document.getElementById("message").value.trim(),
-        time: new Date().toLocaleString("it-IT")
-      };
+  // destinatario fisso (tu)
+  to_email: ADMIN_TO_EMAIL,
+
+  // dati mittente
+  from_name: document.getElementById("name").value.trim(),
+  from_email: email,
+
+  // contenuto
+  role: document.getElementById("role").value,
+  category: document.getElementById("category").value,
+  message: document.getElementById("message").value.trim(),
+  time: new Date().toLocaleString("it-IT")
+};
 
       try{
         await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, payload);
@@ -719,3 +727,4 @@
   </script>
 </body>
 </html>
+
