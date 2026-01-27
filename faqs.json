@@ -77,7 +77,14 @@
     "tags": ["iot", "terze parti", "compatibilità"],
     "answer": "<p>Sì: a livello tecnico puoi collegare anche dispositivi IoT di terze parti (es. elettrodomestici connessi, Bimby, telecamere di terze parti, ecc.).</p>\n<p>È importante però chiarire che BTicino garantisce, testa e supporta ufficialmente Sicuri e Connessi per la connettività cloud dei dispositivi IoT BTicino.</p>\n<p>Inoltre la connettività del servizio è dedicata ai dispositivi BTicino (non nasce come “internet di casa” generico).</p>"
   }
+  {
+  "question": "A quanto ammonta la quota annuale da pagare per Sicuri e Connessi?",
+  "category": "Costi & valore",
+  "tags": ["Rinnovo", "costo", "valore"], 
+  "answer": "<p>La quota annuale del servizio <strong>Sicuri e Connessi</strong> è di <strong>50 €</strong> a partire dal <strong>secondo anno</strong>.</p><p>Il <strong>primo anno</strong> di servizio è già incluso nel costo del dispositivo, quindi non è richiesto alcun pagamento aggiuntivo al momento dell’attivazione.</p><p>Quando il cliente finale inquadra il <strong>QR Code</strong> presente nel quadro elettrico e accede al sito BTicino, la prima transazione viene effettuata a <strong>costo zero</strong> ed è necessaria esclusivamente per attivare il servizio.</p><p>Da quel momento decorrono i <strong>12 mesi</strong> di servizio inclusi.</p><p>Al termine del primo anno, il servizio:</p><ul><li>può essere rinnovato con il pagamento della quota annuale di <strong>50 €</strong>,</li><li>oppure l’utente può selezionare l’opzione di <strong>rinnovo automatico</strong>, così da garantire continuità senza interruzioni.</li></ul><p><strong>👉 Con soli 50 €/anno mantieni il tuo impianto sempre connesso, protetto e senza pensieri, con continuità di servizio garantita.</strong></p>"
+}
 ]
+
 
 
 
