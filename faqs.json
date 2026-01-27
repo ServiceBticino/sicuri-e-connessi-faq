@@ -60,12 +60,6 @@
     "answer": "<p>Il router resta al cliente. La SIM IoT non è più attiva e decadono assistenza ed estensione di garanzia.</p>\n<p>Se il cliente collega la fibra di casa al router Teltonika, la SIM viene disabilitata automaticamente e la fibra diventa la connessione primaria.</p>\n<p><strong>👉 Nessun vincolo, nessuno spreco.</strong></p>"
   },
   {
-    "question": "Quanto costa il rinnovo annuale del servizio ?",
-    "category": "Costi & valore",
-    "tags": ["Rinnovo", "costo", "valore"],
-    "answer": "<p>4 € al mese includono connettività IoT dedicata, sicurezza della rete, monitoraggio continuo, assistenza BTicino, aggiornamenti automatici ed estensione della garanzia.</p>\n<p><strong>👉 Costano meno di una singola uscita tecnica, proteggendo un impianto che vale molto di più.</strong></p>"
-  },
-  {
     "question": "Perché per un installatore è utile proporre Sicuri e Connessi ai propri clienti?",
     "category": "Installatore",
     "tags": ["installatore", "valore", "post-vendita"],
@@ -84,6 +78,7 @@
   "answer": "<p>La quota annuale del servizio <strong>Sicuri e Connessi</strong> è di <strong>50 €</strong> a partire dal <strong>secondo anno</strong>.</p><p>4 € al mese includono connettività IoT dedicata, sicurezza della rete, monitoraggio continuo, assistenza BTicino, aggiornamenti automatici ed estensione della garanzia.</p>\n<p>Il <strong>primo anno</strong> di servizio è già incluso nel costo del dispositivo, quindi non è richiesto alcun pagamento aggiuntivo al momento dell’attivazione.</p><p>Quando il cliente finale inquadra il <strong>QR Code</strong> presente nel quadro elettrico e accede al sito BTicino, la prima transazione viene effettuata a <strong>costo zero</strong> ed è necessaria esclusivamente per attivare il servizio.</p><p>Da quel momento decorrono i <strong>12 mesi</strong> di servizio inclusi.</p><p>Al termine del primo anno, il servizio:</p><ul><li>può essere rinnovato con il pagamento della quota annuale di <strong>50 €</strong>,</li><li>oppure l’utente può selezionare l’opzione di <strong>rinnovo automatico</strong>, così da garantire continuità senza interruzioni.</li></ul><p><strong>👉 Con soli 50 €/anno mantieni il tuo impianto sempre connesso, protetto e senza pensieri, con continuità di servizio garantita.</strong></p>"
 }
 ]
+
 
 
 
