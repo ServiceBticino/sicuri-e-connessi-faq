@@ -21,7 +21,7 @@
     "question": "Se propongo il servizio Sicuri e Connessi in un impianto esistente, i prodotti installati prendono la garanzia?",
     "category": "Garanzia & dispositivi coperti",
     "tags": ["smart home", "garanzia", "lan", "wifi", "rete", "iot"],
-    "answer": "<p>Proteggere la connettività di una casa smart è fondamentale perché il vero punto critico <strong>non è la smart home in sé</strong>, ma <strong>la rete a cui è collegata</strong>.</p><p>Una casa smart connessa a una rete non adeguatamente protetta può diventare vulnerabile, soprattutto quando gestisce dispositivi sensibili come:</p><ul><li>sistemi di allarme</li><li>videocamere</li><li>controllo accessi</li><li>automazioni critiche</li></ul><p>Il servizio <strong>Sicuri e Connessi</strong> nasce proprio per affrontare questo aspetto, permettendo di:</p><ul><li>separare la rete IoT dalla rete domestica</li><li>proteggere i dati e le comunicazioni</li><li>prevenire accessi non autorizzati dall’esterno</li></ul><p><strong>👉 Una casa smart è davvero sicura solo quando la sua connettività è progettata e protetta correttamente.</strong></p>"
+    "answer": "<p>sì purché il prodotto installato sia:</p><ul><li>A) connesso direttamente al router via LAN o tramite WiFi</li><li>B) il prodotto installato al momento dell’attivazione del servizio Sicuri e Connessi sia a catalogo Bticino e non fuori catalogo.</li></ul><p><strong>👉 L'estensione di garanzia sui prodotti connessi al router è sicuramente un motivo in più per attivare il serivizio Sicuri e Connessi</strong></p>"
   },
   {
     "question": "Non basta il Wi-Fi del router dell’operatore?",
@@ -84,6 +84,7 @@
   "answer": "<p>La quota annuale del servizio <strong>Sicuri e Connessi</strong> è di <strong>50 €</strong> a partire dal <strong>secondo anno</strong>.</p><p>4 € al mese includono connettività IoT dedicata, sicurezza della rete, monitoraggio continuo, assistenza BTicino, aggiornamenti automatici ed estensione della garanzia.</p>\n<p>Il <strong>primo anno</strong> di servizio è già incluso nel costo del dispositivo, quindi non è richiesto alcun pagamento aggiuntivo al momento dell’attivazione.</p><p>Quando il cliente finale inquadra il <strong>QR Code</strong> presente nel quadro elettrico e accede al sito BTicino, la prima transazione viene effettuata a <strong>costo zero</strong> ed è necessaria esclusivamente per attivare il servizio.</p><p>Da quel momento decorrono i <strong>12 mesi</strong> di servizio inclusi.</p><p>Al termine del primo anno, il servizio:</p><ul><li>può essere rinnovato con il pagamento della quota annuale di <strong>50 €</strong>,</li><li>oppure l’utente può selezionare l’opzione di <strong>rinnovo automatico</strong>, così da garantire continuità senza interruzioni.</li></ul><p><strong>👉 Con soli 50 €/anno mantieni il tuo impianto sempre connesso, protetto e senza pensieri, con continuità di servizio garantita.</strong></p>"
 }
 ]
+
 
 
 
